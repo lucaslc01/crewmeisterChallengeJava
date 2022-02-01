@@ -13,6 +13,10 @@ accordingly to user's desire for consulting specific country or rate/date.
  On folder src/main/java/com.crewmeister.cmcodingchallenge/controllerReadCSV we have a class that instantiates a java
 buffer reader to access all .csv archives on src/main/resources and them makes specific searches for user.
 
+*Important: when choosing a specific date, type exactly like this format "yyyy-mm-dd" or the search for specific date will not work.
+When searching for a specific country, type as shown on URL path ("/allCurrencies") which returns all available countries
+on an ArrayList<String>.
+
 ## Secondary project (optional)
  The folder src/main/java/com.crewmeister.cmcodingchallenge/generateRates.countries contains java classes capable of 
 generating a random countries having their own generated dates/rates table (Random numbers).
