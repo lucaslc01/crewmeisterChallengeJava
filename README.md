@@ -19,4 +19,4 @@ on an ArrayList<String>.
 
 ## Secondary project (optional)
  The folder src/main/java/com.crewmeister.cmcodingchallenge/generateRates.countries contains java classes capable of 
-generating a random countries having their own generated dates/rates table (Random numbers).
+generating random countries having their own generated dates/rates table (Random numbers).
